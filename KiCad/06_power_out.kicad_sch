@@ -263,6 +263,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -1366,6 +1505,12 @@
 		(uuid "00e37817-fa4e-448c-99e2-3f8d573826c1")
 	)
 	(junction
+		(at 121.92 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a34a938-c64d-416b-a551-5f4da2b7125e")
+	)
+	(junction
 		(at 149.86 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1378,22 +1523,28 @@
 		(uuid "389909e7-5cc3-487a-a8d3-527d42ef2be5")
 	)
 	(junction
+		(at 121.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f268591-1263-47ad-bb70-1df4b93a5886")
+	)
+	(junction
 		(at 149.86 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52b9582a-ad3d-406f-9716-87482cc9c246")
 	)
 	(junction
-		(at 121.92 86.36)
+		(at 111.76 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67492c76-1ee6-4271-a1fa-ca617d42122c")
+		(uuid "a5d02091-b8a4-4e1d-a9db-c1d941b58548")
 	)
 	(junction
-		(at 121.92 48.26)
+		(at 111.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc96c782-f425-49ff-914e-26b1399aec8b")
+		(uuid "a82b07a4-fa48-4520-93e3-bff95f24497d")
 	)
 	(junction
 		(at 121.92 50.8)
@@ -1436,6 +1587,16 @@
 			(type default)
 		)
 		(uuid "029660b9-3a6e-4f80-b93c-b33982bcea69")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 111.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ae8544-9c3c-40a8-bbb2-6352a23949f1")
 	)
 	(wire
 		(pts
@@ -1539,6 +1700,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 88.9) (xy 111.76 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15939e28-c89e-414d-bed1-0135857c9503")
+	)
+	(wire
+		(pts
 			(xy 92.71 41.91) (xy 92.71 44.45)
 		)
 		(stroke
@@ -1606,6 +1777,16 @@
 			(type default)
 		)
 		(uuid "23a08e90-6448-4e2d-ad7a-e2445ce7a9d3")
+	)
+	(wire
+		(pts
+			(xy 121.92 39.37) (xy 121.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26063023-a8c1-4fe2-ac7b-ff2ea469530b")
 	)
 	(wire
 		(pts
@@ -1789,6 +1970,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 77.47) (xy 121.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5222eef8-fa4f-4469-8505-8f3ca83ede22")
+	)
+	(wire
+		(pts
 			(xy 92.71 44.45) (xy 90.17 44.45)
 		)
 		(stroke
@@ -1889,6 +2080,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 132.08) (xy 115.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d7d4daa-899b-4352-88ed-95430d6a1f92")
+	)
+	(wire
+		(pts
 			(xy 72.39 97.79) (xy 72.39 90.17)
 		)
 		(stroke
@@ -1939,6 +2140,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 77.47) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d081a6f-8054-49fb-8760-2e5e9287ed6f")
+	)
+	(wire
+		(pts
 			(xy 93.98 57.15) (xy 93.98 59.69)
 		)
 		(stroke
@@ -1969,6 +2180,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 38.1) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42f282c-a949-4aaf-bf86-e05b3527f9b4")
+	)
+	(wire
+		(pts
 			(xy 25.4 78.74) (xy 25.4 90.17)
 		)
 		(stroke
@@ -1996,16 +2217,6 @@
 			(type default)
 		)
 		(uuid "accc427d-c608-456f-8cfb-825112d46efb")
-	)
-	(wire
-		(pts
-			(xy 121.92 81.28) (xy 121.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6bc5dd-b4bf-411a-bda4-d47cd9c9375e")
 	)
 	(wire
 		(pts
@@ -2139,6 +2350,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 50.8) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac8088b-6584-4313-bbb3-c209cbb118dc")
+	)
+	(wire
+		(pts
+			(xy 111.76 77.47) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db86add2-70d2-472b-ae10-a81ae6b8874d")
+	)
+	(wire
+		(pts
 			(xy 92.71 82.55) (xy 90.17 82.55)
 		)
 		(stroke
@@ -2179,16 +2410,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 121.92 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e412a854-9e23-417c-a354-b96d53be4a1c")
-	)
-	(wire
-		(pts
 			(xy 72.39 82.55) (xy 72.39 85.09)
 		)
 		(stroke
@@ -2206,6 +2427,16 @@
 			(type default)
 		)
 		(uuid "e9b06451-c814-4e39-bf9d-d7039c3d9d0a")
+	)
+	(wire
+		(pts
+			(xy 115.57 119.38) (xy 115.57 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb48b228-ab82-48bf-951c-450d3e865928")
 	)
 	(wire
 		(pts
@@ -2239,6 +2470,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 39.37) (xy 111.76 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ce9ea7-7ff3-4ddf-800b-274eace4265d")
+	)
+	(wire
+		(pts
 			(xy 78.74 128.27) (xy 78.74 129.54)
 		)
 		(stroke
@@ -2246,6 +2487,112 @@
 			(type default)
 		)
 		(uuid "f64d1faa-3a4b-457e-92a0-5b2c81e9ab0b")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 121.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb851cef-ad02-46a4-9536-b40dc22c85b9")
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 115.57 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e0b9513-89b3-4a11-bd89-97b283047a85")
+		(property "Reference" "C603"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 119.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 116.5352 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1276-6687-6-ND"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+			(at 115.57 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a7e5d49-e748-4cfd-93e7-0ec5284eaaf5")
+		)
+		(pin "2"
+			(uuid "7c6aa2c3-2fc4-445a-a9e8-9211afd91be8")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2343,7 +2690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "170324fd-946d-4ceb-a3d2-dc6ae8da40dd")
-		(property "Reference" "#PWR0621"
+		(property "Reference" "#PWR0624"
 			(at 78.74 135.89 0)
 			(effects
 				(font
@@ -2393,7 +2740,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0621")
+					(reference "#PWR0624")
 					(unit 1)
 				)
 			)
@@ -2409,7 +2756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "177e77f2-ad52-43fe-8dbb-0930475b8a06")
-		(property "Reference" "#PWR0607"
+		(property "Reference" "#PWR0608"
 			(at 149.86 60.96 0)
 			(effects
 				(font
@@ -2459,7 +2806,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0607")
+					(reference "#PWR0608")
 					(unit 1)
 				)
 			)
@@ -2561,7 +2908,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "308440a7-5e34-44ef-8aa4-d5b271bc36a5")
-		(property "Reference" "#PWR0614"
+		(property "Reference" "#PWR0615"
 			(at 78.74 95.25 0)
 			(effects
 				(font
@@ -2611,7 +2958,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0614")
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -2721,7 +3068,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "392a680d-d63b-4496-a803-60dd6c1e0b68")
-		(property "Reference" "#PWR0601"
+		(property "Reference" "#PWR0602"
 			(at 25.4 44.45 0)
 			(effects
 				(font
@@ -2771,7 +3118,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0601")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -3032,7 +3379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5121f26a-2ac2-40c5-b55e-1f1841f1d2ec")
-		(property "Reference" "#PWR0602"
+		(property "Reference" "#PWR0603"
 			(at 31.75 44.45 0)
 			(effects
 				(font
@@ -3082,7 +3429,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0602")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -3183,7 +3530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5887e8e0-60ac-40f1-9f4b-18dfffdb9af6")
-		(property "Reference" "#PWR0609"
+		(property "Reference" "#PWR0611"
 			(at 25.4 82.55 0)
 			(effects
 				(font
@@ -3233,23 +3580,25 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0609")
+					(reference "#PWR0611")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 121.92 43.18 0)
+		(lib_id "power:GND")
+		(at 115.57 132.08 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "63fffbfc-4bd5-4646-86c5-66bf5bd183e9")
-		(property "Reference" "#PWR0605"
-			(at 121.92 46.99 0)
+		(fields_autoplaced yes)
+		(uuid "6172a6c8-6a59-4f27-bd9c-73cdcfed6bab")
+		(property "Reference" "#PWR0625"
+			(at 115.57 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3257,8 +3606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_L"
-			(at 125.73 41.402 0)
+		(property "Value" "GND"
+			(at 115.57 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 43.18 0)
+			(at 115.57 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3624,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 43.18 0)
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ae2df1f-7b77-426d-a086-047ab7d38901")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0625")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 111.76 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63fffbfc-4bd5-4646-86c5-66bf5bd183e9")
+		(property "Reference" "#PWR0601"
+			(at 111.76 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_L"
+			(at 115.57 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 43.18 0)
+			(at 111.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +3712,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0605")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -3399,7 +3813,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b32f559-405c-49e4-9285-8aa53fe3bd6d")
-		(property "Reference" "#PWR0603"
+		(property "Reference" "#PWR0604"
 			(at 40.64 44.45 0)
 			(effects
 				(font
@@ -3449,7 +3863,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0603")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -3616,7 +4030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3fa25d-d033-44c0-a9d5-d6a2b6e48168")
-		(property "Reference" "#PWR0608"
+		(property "Reference" "#PWR0609"
 			(at 93.98 60.96 0)
 			(effects
 				(font
@@ -3666,7 +4080,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0608")
+					(reference "#PWR0609")
 					(unit 1)
 				)
 			)
@@ -3681,7 +4095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7195ac8c-5b57-4f3a-ae74-d5db37e19a01")
-		(property "Reference" "#PWR0617"
+		(property "Reference" "#PWR0619"
 			(at 24.13 119.38 0)
 			(effects
 				(font
@@ -3732,7 +4146,103 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0617")
+					(reference "#PWR0619")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8173ff52-e1f5-4772-a07c-e3d77bf8aae2")
+		(property "Reference" "C601"
+			(at 115.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 115.57 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 112.7252 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1276-6687-6-ND"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+			(at 111.76 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9601da2d-a423-468a-8154-e1367f1fa93e")
+		)
+		(pin "2"
+			(uuid "76e9108f-92b3-4de8-bf95-1cf52d6653de")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "C601")
 					(unit 1)
 				)
 			)
@@ -4155,7 +4665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6264208-c449-40ad-993f-8f44c90e6443")
-		(property "Reference" "#PWR0612"
+		(property "Reference" "#PWR0614"
 			(at 92.71 83.82 0)
 			(effects
 				(font
@@ -4205,7 +4715,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0612")
+					(reference "#PWR0614")
 					(unit 1)
 				)
 			)
@@ -4220,7 +4730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b846df75-be9c-4d94-8b72-8e609b9d27c7")
-		(property "Reference" "#PWR0620"
+		(property "Reference" "#PWR0623"
 			(at 92.71 124.46 0)
 			(effects
 				(font
@@ -4271,7 +4781,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0620")
+					(reference "#PWR0623")
 					(unit 1)
 				)
 			)
@@ -4286,7 +4796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bce5a42b-7f48-4784-b388-583bce887bb8")
-		(property "Reference" "#PWR0611"
+		(property "Reference" "#PWR0613"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -4336,7 +4846,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0611")
+					(reference "#PWR0613")
 					(unit 1)
 				)
 			)
@@ -4532,7 +5042,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5e90d2a-4f3e-4ac8-8e81-603f3f4ad889")
-		(property "Reference" "#PWR0616"
+		(property "Reference" "#PWR0618"
 			(at 93.98 99.06 0)
 			(effects
 				(font
@@ -4582,7 +5092,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0616")
+					(reference "#PWR0618")
 					(unit 1)
 				)
 			)
@@ -4597,7 +5107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6360e81-b34e-4480-b9e6-cf192851a2b6")
-		(property "Reference" "#PWR0622"
+		(property "Reference" "#PWR0626"
 			(at 93.98 139.7 0)
 			(effects
 				(font
@@ -4648,7 +5158,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0622")
+					(reference "#PWR0626")
 					(unit 1)
 				)
 			)
@@ -4807,6 +5317,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 50.8 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd402f80-58e7-4571-8544-ba6104186169")
+		(property "Reference" "#PWR0607"
+			(at 111.76 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b1375ae-476e-4273-85ce-425eb2c5d365")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0607")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d78ec22f-ae7b-4121-95ff-1b59d73ca231")
+		(property "Reference" "#PWR0616"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af13e6de-34ed-4402-9793-ac475f6b0135")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0616")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 77.47 82.55 0)
 		(mirror x)
@@ -4910,7 +5554,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc793f98-7af2-47ba-945f-f5642dfde564")
-		(property "Reference" "#PWR0619"
+		(property "Reference" "#PWR0621"
 			(at 43.18 123.19 0)
 			(effects
 				(font
@@ -4961,7 +5605,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0619")
+					(reference "#PWR0621")
 					(unit 1)
 				)
 			)
@@ -4977,7 +5621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e823bdeb-7900-43eb-a2e9-88ee5bfb5ab7")
-		(property "Reference" "#PWR0615"
+		(property "Reference" "#PWR0617"
 			(at 149.86 99.06 0)
 			(effects
 				(font
@@ -5027,7 +5671,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0615")
+					(reference "#PWR0617")
 					(unit 1)
 				)
 			)
@@ -5042,7 +5686,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eeccf9e6-2919-470b-b15f-6f80a52971a3")
-		(property "Reference" "#PWR0618"
+		(property "Reference" "#PWR0620"
 			(at 31.75 123.19 0)
 			(effects
 				(font
@@ -5093,7 +5737,169 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0618")
+					(reference "#PWR0620")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 115.57 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeef908f-197e-4482-a6dd-e954af4a00b9")
+		(property "Reference" "#PWR0622"
+			(at 115.57 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_FTDI"
+			(at 116.84 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5826b3f2-2fcc-43f4-a090-8291f51c98ec")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0622")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 111.76 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eff233da-4368-406b-aaea-c5c6e50fece9")
+		(property "Reference" "C602"
+			(at 115.57 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 115.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 112.7252 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey Part Number" "1276-6687-6-ND"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c270742f-6e19-4351-b9f2-b102a7d8bcff")
+		)
+		(pin "2"
+			(uuid "26ea5742-0459-48f6-a8a9-300d6eaa5594")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "C602")
 					(unit 1)
 				)
 			)
@@ -5108,7 +5914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f477cccd-b32c-4db0-8a1a-6222b075ee66")
-		(property "Reference" "#PWR0610"
+		(property "Reference" "#PWR0612"
 			(at 31.75 82.55 0)
 			(effects
 				(font
@@ -5158,7 +5964,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0610")
+					(reference "#PWR0612")
 					(unit 1)
 				)
 			)
@@ -5166,15 +5972,15 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 121.92 81.28 0)
+		(at 111.76 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ee2816-7b31-4e51-8acf-ea5aac174ae3")
-		(property "Reference" "#PWR0613"
-			(at 121.92 85.09 0)
+		(property "Reference" "#PWR0610"
+			(at 111.76 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5989,7 @@
 			)
 		)
 		(property "Value" "VCC_R"
-			(at 125.73 79.502 0)
+			(at 115.57 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 81.28 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +6006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 81.28 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +6015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 81.28 0)
+			(at 111.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +6029,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0613")
+					(reference "#PWR0610")
 					(unit 1)
 				)
 			)
@@ -5333,7 +6139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe680e5a-4326-4c5f-acc4-3af7156d3db6")
-		(property "Reference" "#PWR0604"
+		(property "Reference" "#PWR0605"
 			(at 92.71 45.72 0)
 			(effects
 				(font
@@ -5383,7 +6189,7 @@
 		(instances
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0604")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 			)
