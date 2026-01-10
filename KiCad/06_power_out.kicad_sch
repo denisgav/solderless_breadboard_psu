@@ -1,0 +1,18 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "35703d83-96eb-4e61-b0b5-ec517c212d00")
+	(paper "A4")
+	(lib_symbols)
+	(text "[6]Power out"
+		(exclude_from_sim no)
+		(at 39.624 20.066 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+			)
+		)
+		(uuid "b983205e-8da5-4eab-983d-5ab14d2cd8ad")
+	)
+)
