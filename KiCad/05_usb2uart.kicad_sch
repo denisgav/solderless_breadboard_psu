@@ -5892,6 +5892,16 @@
 		)
 		(uuid "c3f214ab-1eb8-4d67-b8aa-8347aeedef66")
 	)
+	(label "RX_LED"
+		(at 34.29 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c44621f3-efc5-4f09-b62d-eeb395f2e4df")
+	)
 	(label "TXD"
 		(at 34.29 45.72 0)
 		(effects
@@ -5961,16 +5971,6 @@
 			(justify left bottom)
 		)
 		(uuid "e8562b6f-8c74-44de-b32e-4f164b6eb011")
-	)
-	(label "DTR"
-		(at 34.29 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea6c64da-e1a2-48e7-8bf1-f9067819c95a")
 	)
 	(label "TEN"
 		(at 109.22 121.92 0)
@@ -7222,7 +7222,7 @@
 		(dnp no)
 		(uuid "27c09e26-48c4-42dd-906b-6519e57522e5")
 		(property "Reference" "R503"
-			(at 75.438 142.24 0)
+			(at 74.93 141.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +7635,7 @@
 		(dnp no)
 		(uuid "38a26c14-76e4-413b-b517-9658f0148e4e")
 		(property "Reference" "D503"
-			(at 75.692 151.384 0)
+			(at 75.692 151.384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7643,7 +7643,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 73.914 151.638 0)
+			(at 75.692 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
