@@ -782,7 +782,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -790,21 +790,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -825,7 +823,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -852,7 +850,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -964,7 +962,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1001,7 +999,7 @@
 				)
 				(arc
 					(start -7.62 3.81)
-					(mid -6.985 4.4422)
+					(mid -6.985 4.4423)
 					(end -6.35 3.81)
 					(stroke
 						(width 0.254)
@@ -1013,7 +1011,7 @@
 				)
 				(arc
 					(start -7.62 3.81)
-					(mid -6.985 4.4422)
+					(mid -6.985 4.4423)
 					(end -6.35 3.81)
 					(stroke
 						(width 0.254)
@@ -1025,7 +1023,7 @@
 				)
 				(arc
 					(start -8.89 3.81)
-					(mid -6.985 5.7066)
+					(mid -6.985 5.7067)
 					(end -5.08 3.81)
 					(stroke
 						(width 0.508)
@@ -1037,7 +1035,7 @@
 				)
 				(arc
 					(start -5.08 -3.81)
-					(mid -6.985 -5.7066)
+					(mid -6.985 -5.7067)
 					(end -8.89 -3.81)
 					(stroke
 						(width 0.508)
@@ -1049,7 +1047,7 @@
 				)
 				(arc
 					(start -6.35 -3.81)
-					(mid -6.985 -4.4422)
+					(mid -6.985 -4.4423)
 					(end -7.62 -3.81)
 					(stroke
 						(width 0.254)
@@ -1061,7 +1059,7 @@
 				)
 				(arc
 					(start -6.35 -3.81)
-					(mid -6.985 -4.4422)
+					(mid -6.985 -4.4423)
 					(end -7.62 -3.81)
 					(stroke
 						(width 0.254)
@@ -1165,7 +1163,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -4171,6 +4169,12 @@
 		(uuid "4709eda0-99d5-4624-8be9-d63cb8575fc2")
 	)
 	(junction
+		(at 113.03 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "487730a5-d5c5-46e2-b056-32993798cb32")
+	)
+	(junction
 		(at 173.99 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4590,6 +4594,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 72.39) (xy 113.03 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee7f0cf-0e83-4fd3-8f4f-d07fcf866fe2")
+	)
+	(wire
+		(pts
 			(xy 182.88 100.33) (xy 173.99 100.33)
 		)
 		(stroke
@@ -4920,7 +4934,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 73.66) (xy 109.22 73.66)
+			(xy 134.62 73.66) (xy 113.03 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5227,6 +5241,16 @@
 			(type default)
 		)
 		(uuid "add527ac-d979-44b9-95b4-e2d66eeee476")
+	)
+	(wire
+		(pts
+			(xy 113.03 73.66) (xy 109.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bb7b49-2d62-4c19-adb7-013491572697")
 	)
 	(wire
 		(pts
@@ -5598,16 +5622,6 @@
 		)
 		(uuid "06817a2a-7299-4efb-a7ae-7afebfde0bc6")
 	)
-	(label "DCD"
-		(at 34.29 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f417519-d55d-412d-8b7d-fca6c0576056")
-	)
 	(label "SLEEP"
 		(at 34.29 82.55 0)
 		(effects
@@ -5858,6 +5872,16 @@
 		)
 		(uuid "bd03e5da-719f-4e70-bfc1-accd492462d9")
 	)
+	(label "DSR"
+		(at 34.29 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfabaa27-d87b-47a3-98de-8b04ebbd0de3")
+	)
 	(label "RX_LED"
 		(at 109.22 116.84 0)
 		(effects
@@ -5967,148 +5991,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8a79a6b-5d4a-42f4-85eb-0310ce3858bc")
-	)
-	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
-		(at 243.84 119.38 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061def067")
-		(property "Reference" "J504"
-			(at 248.92 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 255.27 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 240.03 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/USB-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html"
-			(at 243.84 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Korean Hroparts Elec"
-			(at 243.84 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "TYPE-C-31-M-12"
-			(at 243.84 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A1"
-			(uuid "b2cbb098-5db0-45f2-8963-c687aaec3aae")
-		)
-		(pin "A12"
-			(uuid "8fe9d18e-9262-4c9b-8c47-3ff123707d71")
-		)
-		(pin "A4"
-			(uuid "ec189a40-feb0-4e3a-bd8c-a88803f03628")
-		)
-		(pin "A5"
-			(uuid "2fd280f8-59f6-49ab-83ff-ef6a241ca11e")
-		)
-		(pin "A6"
-			(uuid "06795542-48d7-461b-abc1-5e85e8d4ef37")
-		)
-		(pin "A7"
-			(uuid "b2dfe012-64e6-4193-b67e-4111d6e20793")
-		)
-		(pin "A8"
-			(uuid "f6aeb028-3036-407e-a3c9-6be1117e98c3")
-		)
-		(pin "A9"
-			(uuid "e05344b5-a96e-4473-b41e-e9f45716bf1d")
-		)
-		(pin "B1"
-			(uuid "f27670d1-8ece-4c8a-b865-60103c0843e3")
-		)
-		(pin "B12"
-			(uuid "1e1ff099-e9b9-48bd-999b-c185cb68ef1e")
-		)
-		(pin "B4"
-			(uuid "134cf41d-f941-4286-bc6c-40f48982c427")
-		)
-		(pin "B5"
-			(uuid "97d691d3-0a4b-4e9e-8603-83783e0c8897")
-		)
-		(pin "B6"
-			(uuid "d2d766a0-f326-42e2-ad68-b1233b58b5b8")
-		)
-		(pin "B7"
-			(uuid "b84db60f-dd38-4899-9253-8111d7c25d4d")
-		)
-		(pin "B8"
-			(uuid "7d42b05e-9035-4d95-92f4-ffb85002587d")
-		)
-		(pin "B9"
-			(uuid "04d79fc7-1959-4b93-8fbe-d6bb1a0a72a6")
-		)
-		(pin "S1"
-			(uuid "9f04080f-2231-41af-82fd-af1f6e109db6")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
-					(reference "J504")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:VBUS")
@@ -6692,6 +6574,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 243.84 119.38 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "126f67be-05f5-4a63-aa67-5b9755715b99")
+		(property "Reference" "J505"
+			(at 244.348 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 255.524 119.888 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 240.03 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TYPE-C-31-M-12"
+			(at 243.84 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B6"
+			(uuid "424a9c8b-f64e-410a-8f3a-bbfd20b3b99e")
+		)
+		(pin "B5"
+			(uuid "fd0b32d9-a860-4a6a-b0be-dae67dd897c5")
+		)
+		(pin "A9"
+			(uuid "8d7199ea-f257-4f90-830f-c08a6cef74b6")
+		)
+		(pin "A7"
+			(uuid "f7f3d345-5b82-459e-b950-e1a500d386c0")
+		)
+		(pin "B7"
+			(uuid "3fcd948e-d3d3-42d4-beff-9ba105306e21")
+		)
+		(pin "A8"
+			(uuid "c1596422-1337-4045-86e3-fcd03fa0a6fb")
+		)
+		(pin "B8"
+			(uuid "c4cc6119-d3e5-488c-92a5-8bb43f942fe6")
+		)
+		(pin "A4"
+			(uuid "bccc55f0-af5a-4d51-a50c-ff9d4a6cdc99")
+		)
+		(pin "A6"
+			(uuid "c975410f-bb6d-4b21-a800-65108fc65451")
+		)
+		(pin "S1"
+			(uuid "8e8fc4b2-cf9f-4f78-ab46-c0aa0693af87")
+		)
+		(pin "B1"
+			(uuid "39854e61-2ace-464b-bc07-8abaaa9b57be")
+		)
+		(pin "A1"
+			(uuid "a70eb439-60dd-46ff-96a4-cc0e7534b401")
+		)
+		(pin "A5"
+			(uuid "30af784b-81cf-41f0-a847-1b8eb53248b3")
+		)
+		(pin "B4"
+			(uuid "17d791ef-88dc-4f1d-b8f3-7c36d9e1de3e")
+		)
+		(pin "A12"
+			(uuid "11d33a28-aaee-4674-870c-7d581266d167")
+		)
+		(pin "B9"
+			(uuid "e15f2691-e274-44f3-8e02-fecb1eed5b19")
+		)
+		(pin "B12"
+			(uuid "8b2fabd1-120a-4963-a9be-176df8a5e7e9")
+		)
+		(instances
+			(project ""
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
+					(reference "J505")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 71.12 138.43 0)
 		(unit 1)
@@ -7061,6 +7074,73 @@
 			(project ""
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
 					(reference "IC501")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 113.03 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21721e13-f992-44a6-92f1-6b6544dec990")
+		(property "Reference" "#FLG0503"
+			(at 113.03 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 113.03 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 113.03 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e26e0c-b85b-427d-a133-61bf72efbcb3")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
+					(reference "#FLG0503")
 					(unit 1)
 				)
 			)
@@ -9415,6 +9495,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 43.18 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c34dabc4-3d71-47c9-bf1e-8d8d89d0ab7b")
+		(property "Reference" "#PWR0515"
+			(at 43.18 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_FTDI"
+			(at 44.45 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 43.18 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9c6d344-4674-4ccc-95c2-53563e9c8174")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
+					(reference "#PWR0515")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_7")
 		(lib_id "power:GND")
 		(at 135.89 144.78 0)
@@ -9632,72 +9778,6 @@
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
 					(reference "#FLG0501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd9ad01c-ef1b-4253-85d8-348b57e885c9")
-		(property "Reference" "#PWR0515"
-			(at 43.18 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "FTDI_VCC"
-			(at 44.45 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1db0d9c1-a3fd-4dcd-ba24-c866b38a1216")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/daadd221-9750-45f3-8ee2-46422755319d/86ea8f72-2176-46d7-9be1-803c7c29a3bb"
-					(reference "#PWR0515")
 					(unit 1)
 				)
 			)
