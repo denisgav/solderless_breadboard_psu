@@ -6655,15 +6655,15 @@
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
 		(at 25.4 87.63 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19cf1128-7612-42db-89c3-be7039657b65")
 		(property "Reference" "J502"
-			(at 26.035 72.39 0)
+			(at 25.908 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6671,7 +6671,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 26.035 74.93 0)
+			(at 26.924 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
