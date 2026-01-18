@@ -2039,6 +2039,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 86.36) (xy 95.25 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527ddbc6-4c84-44bd-9ba6-92cd65a0c119")
+	)
+	(wire
+		(pts
 			(xy 72.39 77.47) (xy 73.66 77.47)
 		)
 		(stroke
@@ -2226,6 +2236,16 @@
 			(type default)
 		)
 		(uuid "8fe5bfa9-465b-481a-9b10-ed770880917e")
+	)
+	(wire
+		(pts
+			(xy 95.25 48.26) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909f2f8d-4fd7-4ac8-9e45-2165dd01c7aa")
 	)
 	(wire
 		(pts
@@ -2878,6 +2898,71 @@
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
 					(reference "C603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 95.25 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e5dd97b-5113-4cb4-9abc-c3ef9e9eaf43")
+		(property "Reference" "#PWR0615"
+			(at 95.25 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 98.044 84.328 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "061527c5-973c-4d8a-8a71-4ee234588478")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -3874,6 +3959,71 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 95.25 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5484e4f0-8f72-4d2a-9b24-b1c7d8496bee")
+		(property "Reference" "#PWR0606"
+			(at 95.25 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 98.044 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a45982-858d-4ee7-a2a8-f7ad913b2700")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
+					(reference "#PWR0606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 25.4 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4592,71 +4742,6 @@
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
 					(reference "#PWR0609")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 95.25 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7f48f5c6-51b7-468d-93e8-c39ba82d0858")
-		(property "Reference" "#PWR0615"
-			(at 95.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VIN_SWITCH"
-			(at 95.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25656fde-6e7c-4874-b638-54322de12236")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0615")
 					(unit 1)
 				)
 			)
@@ -6435,71 +6520,6 @@
 			(project "solderless_breadboard_psu"
 				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
 					(reference "#PWR0610")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 95.25 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fe680e5a-4326-4c5f-acc4-3af7156d3db6")
-		(property "Reference" "#PWR0606"
-			(at 95.25 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VIN_SWITCH"
-			(at 95.25 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43256faa-5675-4f79-9ae7-205b678ffff5")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/daadd221-9750-45f3-8ee2-46422755319d/fb884ed1-1487-4429-a624-834d1e55909d"
-					(reference "#PWR0606")
 					(unit 1)
 				)
 			)
