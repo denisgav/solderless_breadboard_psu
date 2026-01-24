@@ -8513,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Value" "DNP, 1MR"
+		(property "Value" "1MR"
 			(at 31.496 175.006 90)
 			(effects
 				(font

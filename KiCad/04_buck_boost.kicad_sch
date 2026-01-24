@@ -5213,7 +5213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 68.58 66.675 0)
 			(effects
 				(font
@@ -5222,7 +5222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C266551.pdf"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -5231,7 +5231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
+		(property "Description" "Diode 40V 1A Surface Mount SMA(DO-214AC)"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Schottky Diode"
+		(property "Manufacturer" "BORN"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -5249,7 +5249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "JSMSEMI"
+		(property "Manufacturer Part Number" "SS14"
 			(at 68.58 71.12 0)
 			(effects
 				(font
