@@ -2834,7 +2834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 116.5352 129.54 0)
 			(effects
 				(font
@@ -2879,7 +2879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 115.57 125.73 0)
 			(effects
 				(font
@@ -4528,46 +4528,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 80.01 539.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XKB5858-Z"
-			(at 80.01 639.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 80.01 739.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 80.01 839.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 80.01 939.37 0)
 			(effects
@@ -4585,6 +4545,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XKB5858-Z"
+			(at 53.34 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4859,7 +4837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 48.26 0)
 			(effects
 				(font
@@ -4904,7 +4882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 111.76 44.45 0)
 			(effects
 				(font
@@ -5285,46 +5263,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 80.01 618.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XKB5858-Z"
-			(at 80.01 718.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 80.01 818.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 80.01 918.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 80.01 1018.11 0)
 			(effects
@@ -5342,6 +5280,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XKB5858-Z"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5662,46 +5618,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "XKB Connectivity"
-			(at 80.01 577.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "XKB5858-Z"
-			(at 80.01 677.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 80.01 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 80.01 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 80.01 977.47 0)
 			(effects
@@ -5719,6 +5635,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connectivity"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "XKB5858-Z"
+			(at 53.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6326,7 +6260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 112.7252 86.36 0)
 			(effects
 				(font
@@ -6371,7 +6305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 111.76 82.55 0)
 			(effects
 				(font

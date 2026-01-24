@@ -2638,7 +2638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 100.0252 82.55 0)
 			(effects
 				(font
@@ -2683,7 +2683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 99.06 78.74 0)
 			(effects
 				(font
@@ -2868,7 +2868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 159.7152 69.85 0)
 			(effects
 				(font
@@ -2913,7 +2913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 158.75 66.04 0)
 			(effects
 				(font
@@ -3265,7 +3265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CC0603JRNPO9BN300 "
+		(property "Manufacturer Part Number" "CC0603JRNPO9BN300"
 			(at 90.17 78.74 0)
 			(effects
 				(font
@@ -3455,7 +3455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "0402WGF1003TCE"
+		(property "Manufacturer Part Number" "0402WGF1003TCE"
 			(at 215.9 66.04 0)
 			(effects
 				(font
@@ -3640,7 +3640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 205.4352 69.85 0)
 			(effects
 				(font
@@ -3685,7 +3685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 204.47 66.04 0)
 			(effects
 				(font
@@ -3736,7 +3736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 32.7152 81.28 0)
 			(effects
 				(font
@@ -3781,7 +3781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 31.75 77.47 0)
 			(effects
 				(font
@@ -3851,6 +3851,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 41.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS61040DBVR"
 			(at 41.91 68.58 0)
 			(effects
 				(font
@@ -3945,8 +3963,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "FXL0630-100-M"
-			(at 46.99 59.69 0)
+		(property "Manufacturer Part Number" "FXL0630-100-M"
+			(at 46.99 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.788 77.47 90)
 			(effects
 				(font
@@ -4239,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Viking Tech"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -4248,7 +4266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "ARG05FTC1004"
+		(property "Manufacturer Part Number" "0402WGF1004TCE"
 			(at 80.01 77.47 0)
 			(effects
 				(font
@@ -4554,46 +4572,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 191.77 552.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLV62569DBVR"
-			(at 191.77 652.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-TLV62569DBVR"
-			(at 191.77 752.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV62569DBVR?qs=0C8XhJW8e4oaylc%252BzBrCmA%3D%3D"
-			(at 191.77 852.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Arrow Part Number" "TLV62569DBVR"
 			(at 191.77 952.07 0)
 			(effects
@@ -4611,6 +4589,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TLV62569DBVR"
+			(at 170.18 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4666,7 +4662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.788 90.17 90)
 			(effects
 				(font
@@ -4693,7 +4689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 80.01 90.17 0)
 			(effects
 				(font
@@ -4702,7 +4698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" ""
+		(property "Manufacturer Part Number" "0402WGF3303TCE"
 			(at 80.01 90.17 0)
 			(effects
 				(font
@@ -5167,7 +5163,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "0402WGF2202TCE"
+		(property "Manufacturer Part Number" "0402WGF2202TCE"
 			(at 215.9 80.01 0)
 			(effects
 				(font
@@ -5253,7 +5249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "SD0603S040S0R2"
+		(property "Manufacturer Part Number" "JSMSEMI"
 			(at 68.58 71.12 0)
 			(effects
 				(font
@@ -5347,8 +5343,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "FXL0630-150-M"
-			(at 199.39 59.69 0)
+		(property "Manufacturer Part Number" "FXL0630-150-M"
+			(at 199.39 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -6091,15 +6091,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
-			(at 201.93 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 201.93 104.14 0)
 			(effects
@@ -6187,15 +6178,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC link" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.html"
-			(at 193.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 193.04 104.14 0)
 			(effects
@@ -6256,7 +6238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 55.88 0)
 			(effects
 				(font
@@ -6301,7 +6283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 109.22 52.07 0)
 			(effects
 				(font
@@ -6839,46 +6821,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "FTDI Chip"
-			(at 118.11 587.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FT232RL-REEL"
-			(at 118.11 687.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "895-FT232RL"
-			(at 118.11 787.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/FTDI/FT232RL-REEL?qs=D1%2FPMqvA103RC6OU6bKtoA%3D%3D"
-			(at 118.11 887.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Arrow Part Number" "FT232RL-REEL"
 			(at 118.11 987.63 0)
 			(effects
@@ -6896,6 +6838,24 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FTDI Chip"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "FT232RL-REEL"
+			(at 147.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7318,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.1852 82.55 0)
 			(effects
 				(font
@@ -7363,7 +7323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Product Number" "CL21A226MQQNNNE"
+		(property "Manufacturer Part Number" "CL10A226MP8NUNE"
 			(at 109.22 78.74 0)
 			(effects
 				(font
@@ -8561,7 +8521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 31.75 174.498 90)
 			(effects
 				(font
@@ -8597,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1004T5E"
+		(property "Manufacturer Part Number" "0402WGF1004TCE"
 			(at 31.75 172.72 90)
 			(effects
 				(font
