@@ -4114,7 +4114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 143.51 104.14 0)
 			(effects
 				(font
@@ -5000,7 +5000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 71.12 156.21 0)
 			(effects
 				(font
@@ -5432,7 +5432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 137.16 143.51 0)
 			(effects
 				(font
@@ -6727,7 +6727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 132.08 53.34 0)
 			(effects
 				(font

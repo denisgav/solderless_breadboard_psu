@@ -6091,7 +6091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 201.93 104.14 0)
 			(effects
 				(font
@@ -6178,7 +6178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 193.04 104.14 0)
 			(effects
 				(font
@@ -7071,7 +7071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 39.37 151.13 0)
 			(effects
 				(font
@@ -8128,7 +8128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "ST"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -8513,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Value" "1MR"
+		(property "Value" "910kR"
 			(at 31.496 175.006 90)
 			(effects
 				(font
@@ -8548,7 +8548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 31.75 172.72 90)
 			(effects
 				(font
@@ -8557,7 +8557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1004TCE"
+		(property "Manufacturer Part Number" "0402WGJ0914TCE"
 			(at 31.75 172.72 90)
 			(effects
 				(font
@@ -8832,7 +8832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 39.37 144.78 0)
 			(effects
 				(font
