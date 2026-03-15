@@ -611,6 +611,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a21d7fb0-6e8a-4ff2-99df-6a61457ff1fd")
 			(effects
 				(font
@@ -2090,7 +2091,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2652,7 +2653,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3737,7 +3738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3870,9 +3871,10 @@
 				)
 			)
 		)
-		(property "Value" "1MR"
+		(property "Value" "910kR"
 			(at 0 1.17 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7db26204-99be-4d24-8a49-6d7249716475")
 			(effects
 				(font
@@ -3905,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3918,7 +3920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1004TCE"
+		(property "Manufacturer Part Number" "0402WGJ0914TCE"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4531,7 +4533,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4933,7 +4935,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5297,7 +5299,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5674,6 +5676,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/fb884ed1-1487-4429-a624-834d1e55909d/51476d6e-92de-42a4-8dcb-065c730eb007")
+		(sheetname "/[6]Power out/")
+		(sheetfile "06_power_out.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -5864,7 +5870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "ST"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7390,6 +7396,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
+		(path "/fb884ed1-1487-4429-a624-834d1e55909d/36083cde-aa0a-4e39-9c79-a3e39ffd67db")
+		(sheetname "/[6]Power out/")
+		(sheetfile "06_power_out.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 -0.735)
@@ -7547,6 +7557,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "a07bc3a3-4099-4bb1-b6df-bc6f24f90cb4")
 			(effects
 				(font
@@ -8169,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8364,7 +8375,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
+		(property "Manufacturer" "cjiang"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9337,9 +9348,10 @@
 				)
 			)
 		)
-		(property "Value" "1MR"
+		(property "Value" "910kR"
 			(at 0 1.17 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "5f11521c-65e8-4dde-94bc-898d56a4fa46")
 			(effects
 				(font
@@ -9372,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9385,7 +9397,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF1004TCE"
+		(property "Manufacturer Part Number" "0402WGJ0914TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10031,7 +10043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10203,9 +10215,10 @@
 				)
 			)
 		)
-		(property "Value" "330kR"
+		(property "Value" "300kR"
 			(at 0 1.17 270)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0d6d1a5e-0e99-457d-963d-dfac21aee9dc")
 			(effects
 				(font
@@ -10238,7 +10251,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10251,7 +10264,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "0402WGF3303TCE"
+		(property "Manufacturer Part Number" "0402WGF3003TCE"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10407,7 +10420,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10757,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10926,7 +10939,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11108,7 +11121,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11277,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11628,7 +11641,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Schottky Diode"
+		(property "Manufacturer" "Kyocera AVX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12605,7 +12618,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12774,7 +12787,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12943,7 +12956,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13333,7 +13346,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15351,7 +15364,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
+		(property "Manufacturer" "cjiang"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17451,6 +17464,7 @@
 		(property "Value" "22uF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1eb79583-4757-42ce-945f-25a939a969a1")
 			(effects
 				(font
@@ -17665,7 +17679,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17834,7 +17848,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
