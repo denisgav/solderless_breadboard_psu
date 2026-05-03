@@ -1,0 +1,98 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6d24fac5-4a4b-49b5-80a0-bc8a42e41061")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 25.4 25.4)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1c6da762-6229-42ed-98c2-76b37ddd9a98")
+		(property "Sheetname" "[2] Power"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_power.kicad_sch"
+			(at 25.4 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 63.5)
+		(size 25.4 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b185057a-45c8-4512-8009-8ada1a85e4bb")
+		(property "Sheetname" "[3] USB 2 UART"
+			(at 25.4 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_usb2uart.kicad_sch"
+			(at 25.4 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
