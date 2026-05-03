@@ -357,7 +357,7 @@
 		(uuid "e8707161-555c-4f45-8e78-4247fa842c48")
 	)
 	(embedded_fonts no)
-	(model "TPS63000DRCR.stp"
+	(model "${KIPRJMOD}/components/TPS63000DRCR/TPS63000DRCR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

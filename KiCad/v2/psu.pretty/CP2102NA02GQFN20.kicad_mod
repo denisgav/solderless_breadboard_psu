@@ -313,7 +313,7 @@
 		(uuid "363759b3-eb72-4b06-b1c6-357c69f0bc74")
 	)
 	(embedded_fonts no)
-	(model "CP2102N-A02-GQFN20R.stp"
+	(model "${KIPRJMOD}/components/CP2102N-A02-GQFN20R/CP2102N-A02-GQFN20R.stp"
 		(offset
 			(xyz 0 0 0.7499999887)
 		)
