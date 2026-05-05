@@ -5072,6 +5072,16 @@
 		)
 		(uuid "20191496-5bab-4dd3-9dca-c0f7f64e3b25")
 	)
+	(label "5V_L1"
+		(at 177.8 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d41729b-26d8-4704-bb83-a8c3325b1803")
+	)
 	(label "3V3_IN_EN"
 		(at 166.37 125.73 0)
 		(effects
@@ -5081,6 +5091,26 @@
 			(justify left bottom)
 		)
 		(uuid "925c31cb-d5e8-41c7-ba84-06c3a1232aef")
+	)
+	(label "5V_L2"
+		(at 203.2 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a17c68e0-1a15-4726-95e5-dd1b1caf5f32")
+	)
+	(label "3V3_L1"
+		(at 177.8 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b55b71aa-1caf-4afc-afbe-434b603b23fb")
 	)
 	(label "3V3_FB"
 		(at 213.36 127 0)
@@ -5101,6 +5131,16 @@
 			(justify left bottom)
 		)
 		(uuid "de774baf-8ea2-4fec-a808-cbbe7b7f648f")
+	)
+	(label "3V3_L2"
+		(at 201.93 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3fc02c8-b5a6-4b9a-b3ed-84300127d4f6")
 	)
 	(global_label "VBUS_CONN"
 		(shape input)
