@@ -3812,7 +3812,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "workie_talkie:SW_PUSH_6mm_H5mm"
+		(symbol "psu:SW_PUSH_6mm_H5mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3832,8 +3832,8 @@
 					)
 				)
 			)
-			(property "Footprint" "workie_talkie:SW_PUSH_6mm_H5mm"
-				(at 0.762 -6.604 0)
+			(property "Footprint" "psu:SW_PUSH_6mm_H5mm"
+				(at 0 -6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -8148,6 +8148,79 @@
 		)
 	)
 	(symbol
+		(lib_id "psu:SW_PUSH_6mm_H5mm")
+		(at 132.08 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "451cd190-0df5-4b9a-8810-02c73b41f110")
+		(property "Reference" "SW301"
+			(at 132.08 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 131.572 179.578 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "psu:SW_PUSH_6mm_H5mm"
+			(at 132.08 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5eed0cb7-0f52-4ab9-a3df-68dc8bde0d3b")
+		)
+		(pin "1"
+			(uuid "b2d6b82c-a729-4921-9955-cd18be67051e")
+		)
+		(pin "1"
+			(uuid "1e8a4781-b944-44a3-8a5a-f1b89ce15e74")
+		)
+		(pin "2"
+			(uuid "ed8d55a6-42ef-449a-9553-cf806ef3d1b9")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/b185057a-45c8-4512-8009-8ada1a85e4bb"
+					(reference "SW301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 270.51 31.75 0)
 		(mirror y)
@@ -10332,106 +10405,6 @@
 			(project "solderless_breadboard_psu"
 				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/b185057a-45c8-4512-8009-8ada1a85e4bb"
 					(reference "#PWR0303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "workie_talkie:SW_PUSH_6mm_H5mm")
-		(at 132.08 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a93e1651-d139-4026-83be-007503e873a9")
-		(property "Reference" "SW301"
-			(at 132.08 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 132.08 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "workie_talkie:SW_PUSH_6mm_H5mm"
-			(at 132.842 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" "C29781314"
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SM Switch"
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "SMG-01-H080A1"
-			(at 132.08 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f727c2a-f97d-4054-8315-23ec0b0b7163")
-		)
-		(pin "2"
-			(uuid "42a15ae2-2b66-4d76-a54f-46a8ae9d8476")
-		)
-		(pin "1"
-			(uuid "0ba09be2-68e8-4d89-9821-58f19221872a")
-		)
-		(pin "2"
-			(uuid "5218bec5-8a01-4da7-bd76-546cacb37e4f")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/b185057a-45c8-4512-8009-8ada1a85e4bb"
-					(reference "SW301")
 					(unit 1)
 				)
 			)

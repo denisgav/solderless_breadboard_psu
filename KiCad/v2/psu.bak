@@ -538,7 +538,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X80-25N-D"
+		(property "Footprint" "psu:QFN50P400X400X80-25N-D"
 			(at 41.91 -87.3 0)
 			(effects
 				(font
