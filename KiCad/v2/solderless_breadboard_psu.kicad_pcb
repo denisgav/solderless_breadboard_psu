@@ -5673,7 +5673,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5817d196-f7e7-4c75-9ea2-616c74d6f61a")
-		(at 71.25 104.24)
+		(at 94.725 108)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C215"
@@ -6774,7 +6774,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6e4d8e7d-950d-4511-90b1-32eb143597ab")
-		(at 34.99 132.59)
+		(at 141.5 105.25)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D304"
@@ -8257,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Value" "30pF"
+		(property "Value" "2.4pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10086,7 +10086,7 @@
 	(footprint "psu:QFN50P400X400X80-25N-D"
 		(layer "F.Cu")
 		(uuid "9b9e0f51-811f-4f1e-bc07-aa191b7d2ca2")
-		(at 56 148.75 90)
+		(at 55.25 155.05 90)
 		(descr "24-Pin QFN-1")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC301"
@@ -12414,7 +12414,7 @@
 				)
 			)
 		)
-		(property "Value" "30pF"
+		(property "Value" "4pF"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14981,7 +14981,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d168b969-7051-4f90-85ca-c22c19fd8c36")
-		(at 69 119.6)
+		(at 91.25 119.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D206"
@@ -15856,7 +15856,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e177659c-dc98-4a3a-bb47-160d5fe8486c")
-		(at 71.25 106.75)
+		(at 94.725 110.51)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C216"
@@ -17232,7 +17232,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f14fa7cb-0a71-4a91-af72-3579dcf32d62")
-		(at 69 116.25)
+		(at 100.1 116.75)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D205"
