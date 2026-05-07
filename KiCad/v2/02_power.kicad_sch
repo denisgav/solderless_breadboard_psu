@@ -5,22 +5,23 @@
 	(uuid "5911ed1b-92a9-48d4-bbba-9279b1943dc3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Barrel_Jack_Switch_Pin3Ring"
+		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Barrel_Jack_Switch_Pin3Ring"
+			(property "Value" "Conn_01x02_Pin"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -29,7 +30,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,15 +39,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack with an internal switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "Description" "Generic connector, single row, 01x02, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +56,15 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,48 +73,32 @@
 					(hide yes)
 				)
 			)
-			(symbol "Barrel_Jack_Switch_Pin3Ring_0_1"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
-					)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 1.905)
-					(mid -3.9343 2.54)
-					(end -3.302 3.175)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -123,33 +107,10 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.286) (xy 1.905 -1.651)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -158,22 +119,20 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "Barrel_Jack_Switch_Pin3Ring_1_1"
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -189,9 +148,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -199,24 +158,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2805,12 +2746,6 @@
 		(uuid "4e7f096e-2a3e-4d74-a7c5-dadd9d99a321")
 	)
 	(junction
-		(at 43.18 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "525962c8-a57b-4af6-ab77-72ee57e3bfea")
-	)
-	(junction
 		(at 185.42 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3626,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 82.55) (xy 43.18 82.55)
+			(xy 35.56 80.01) (xy 38.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4196,16 +4131,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 43.18 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80eff1b1-1516-4649-aa7c-d6f389aef31c")
-	)
-	(wire
-		(pts
 			(xy 259.08 113.03) (xy 259.08 114.3)
 		)
 		(stroke
@@ -4213,16 +4138,6 @@
 			(type default)
 		)
 		(uuid "826da8a4-82e2-4a65-83f6-8e2ddc22f66f")
-	)
-	(wire
-		(pts
-			(xy 41.91 77.47) (xy 40.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f6dbbb-3429-4d06-bb6f-4cccde1f8a56")
 	)
 	(wire
 		(pts
@@ -4323,16 +4238,6 @@
 			(type default)
 		)
 		(uuid "8ecf85e0-2b59-43a7-a491-5cb00878a12a")
-	)
-	(wire
-		(pts
-			(xy 40.64 80.01) (xy 43.18 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f36ba53-7472-42fd-8a0d-c3d7446298d7")
 	)
 	(wire
 		(pts
@@ -4706,7 +4611,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 82.55) (xy 43.18 88.9)
+			(xy 38.1 80.01) (xy 38.1 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4883,6 +4788,16 @@
 			(type default)
 		)
 		(uuid "e06a1e7f-c270-4bcf-bbea-44625af2251c")
+	)
+	(wire
+		(pts
+			(xy 35.56 77.47) (xy 41.91 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0826635-f4e1-430d-bc50-421fdf52c928")
 	)
 	(wire
 		(pts
@@ -5861,7 +5776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 71.12 0)
 			(effects
 				(font
@@ -6458,7 +6373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 134.62 0)
 			(effects
 				(font
@@ -7013,7 +6928,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "44375e58-3643-45e9-9890-e1997c9d4797")
 		(property "Reference" "C211"
 			(at 228.854 118.618 0)
@@ -7255,6 +7170,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 30.48 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47e8e1f8-f41a-4a41-9b19-a09bb0a96387")
+		(property "Reference" "J201"
+			(at 31.115 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 31.115 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 30.48 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18212bb0-fb21-49f9-8fb6-3d48870615ab")
+		)
+		(pin "2"
+			(uuid "e50191fc-cc9e-4025-868d-b437f92f6962")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/1c6da762-6229-42ed-98c2-76b37ddd9a98"
+					(reference "J201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 77.47 83.82 0)
 		(unit 1)
@@ -7367,7 +7350,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4a80b11c-c993-42ff-ad4a-7a081ee97f51")
 		(property "Reference" "C204"
 			(at 228.854 55.118 0)
@@ -7662,94 +7645,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Barrel_Jack_Switch_Pin3Ring")
-		(at 33.02 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "570fb475-7a30-4fb4-99d0-0e188f281cb2")
-		(property "Reference" "J201"
-			(at 28.448 71.628 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Barrel_Jack_Switch_Pin3Ring"
-			(at 30.226 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_GCT_DCJ200-10-A_Horizontal"
-			(at 34.29 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2501101719_SHOU-HAN-DC005_C431533.pdf"
-			(at 34.29 81.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack with an internal switch"
-			(at 33.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SHOU HAN"
-			(at 33.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "DC005"
-			(at 33.02 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1aa91961-c676-4d6d-86a3-6fffc1d085b4")
-		)
-		(pin "1"
-			(uuid "199615dc-2783-454e-b44e-cb5166dbb164")
-		)
-		(pin "3"
-			(uuid "c91e8466-1444-4c58-b1b3-cb5776a0300e")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/1c6da762-6229-42ed-98c2-76b37ddd9a98"
-					(reference "J201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 34.29 135.89 0)
 		(unit 1)
@@ -8004,6 +7899,71 @@
 			(project "solderless_breadboard_psu"
 				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/1c6da762-6229-42ed-98c2-76b37ddd9a98"
 					(reference "#PWR0228")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 50.8 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64dd6365-b4bd-4e29-a124-bd92ab015f2b")
+		(property "Reference" "#PWR0240"
+			(at 50.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_R"
+			(at 54.61 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 50.8 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "232de941-d7a5-48fe-95f6-79528f5e7729")
+		)
+		(instances
+			(project "solderless_breadboard_psu"
+				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/1c6da762-6229-42ed-98c2-76b37ddd9a98"
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -9941,71 +9901,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fba4968-50dd-4503-9bee-4e5108def03d")
-		(property "Reference" "#PWR0240"
-			(at 50.8 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_L"
-			(at 54.61 170.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 50.8 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71b23b19-869d-4fab-a9b7-cf063dbeed68")
-		)
-		(instances
-			(project "solderless_breadboard_psu"
-				(path "/6d24fac5-4a4b-49b5-80a0-bc8a42e41061/1c6da762-6229-42ed-98c2-76b37ddd9a98"
-					(reference "#PWR0240")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 259.08 113.03 0)
 		(unit 1)
@@ -10597,7 +10492,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 88.9 0)
+		(at 38.1 86.36 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10607,7 +10502,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9313080-0ac3-4de1-878f-59f9b953049e")
 		(property "Reference" "#PWR0219"
-			(at 43.18 95.25 0)
+			(at 38.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10511,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 93.98 0)
+			(at 38.1 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 88.9 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 88.9 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 88.9 0)
+			(at 38.1 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
