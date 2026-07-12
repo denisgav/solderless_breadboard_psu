@@ -6922,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A475KAQNNNE"
+		(property "Manufacturer Part Number" "CL10A475KP8NNNC"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -6931,7 +6931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1779"
+		(property "LCSC Part Number" "C1705"
 			(at 184.15 64.77 0)
 			(effects
 				(font
@@ -7077,7 +7077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "VISHAY"
 			(at 151.13 34.29 0)
 			(effects
 				(font
@@ -7086,7 +7086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW040222K1FKED"
 			(at 151.13 34.29 0)
 			(effects
 				(font
@@ -7095,7 +7095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C844504"
 			(at 151.13 34.29 0)
 			(effects
 				(font
@@ -7266,6 +7266,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C86295"
+			(at 73.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a7e5d49-e748-4cfd-93e7-0ec5284eaaf5")
 		)
@@ -7404,7 +7413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -7413,7 +7422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RT0402DRE0747K5L"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -7422,7 +7431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C853963"
 			(at 151.13 44.45 0)
 			(effects
 				(font
@@ -7508,6 +7517,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" "1N5819HW-7-F"
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C82544"
 			(at 80.01 163.83 0)
 			(effects
 				(font
@@ -7682,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 153.67 66.04 0)
 			(effects
 				(font
@@ -7691,7 +7709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 153.67 66.04 90)
 			(effects
 				(font
@@ -7700,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 153.67 66.04 90)
 			(effects
 				(font
@@ -7992,7 +8010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 175.26 39.37 0)
 			(effects
 				(font
@@ -8001,7 +8019,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 175.26 39.37 90)
 			(effects
 				(font
@@ -8010,7 +8028,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 175.26 39.37 90)
 			(effects
 				(font
@@ -8211,6 +8229,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C29781314"
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SM Switch"
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "SMG-01-H080A1"
 			(at 132.08 173.99 0)
 			(effects
 				(font
@@ -8691,6 +8736,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C965799"
+			(at 205.74 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57719a9f-ca3c-438a-b8bf-cd15c1ca7978")
 		)
@@ -8761,7 +8815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -8770,7 +8824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -8779,7 +8833,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106235"
 			(at 198.12 115.57 0)
 			(effects
 				(font
@@ -8868,7 +8922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RT0805BRD075K1L"
+		(property "Manufacturer Part Number" "RT0402BRD075K1L"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -8877,7 +8931,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C122968"
+		(property "LCSC Part Number" "C852856"
 			(at 81.28 80.01 0)
 			(effects
 				(font
@@ -8955,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 99.06 86.36 0)
 			(effects
 				(font
@@ -8964,7 +9018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 99.06 86.36 90)
 			(effects
 				(font
@@ -8973,7 +9027,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 99.06 86.36 90)
 			(effects
 				(font
@@ -10330,7 +10384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A475KAQNNNE"
+		(property "Manufacturer Part Number" "CL10A475KP8NNNC"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -10339,7 +10393,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1779"
+		(property "LCSC Part Number" "C1705"
 			(at 184.15 39.37 0)
 			(effects
 				(font
@@ -10485,7 +10539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -10494,7 +10548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -10503,7 +10557,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106235"
 			(at 196.85 72.39 0)
 			(effects
 				(font
@@ -10581,7 +10635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 116.84 177.8 0)
 			(effects
 				(font
@@ -10590,7 +10644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 116.84 177.8 90)
 			(effects
 				(font
@@ -10599,7 +10653,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 116.84 177.8 90)
 			(effects
 				(font
@@ -10675,7 +10729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Viking Tech"
+		(property "Manufacturer" "YAGEO"
 			(at 33.02 172.72 90)
 			(effects
 				(font
@@ -10684,7 +10738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ARG05FTC1004"
+		(property "Manufacturer Part Number" "RE0402BRE071ML"
 			(at 33.02 172.72 90)
 			(effects
 				(font
@@ -10693,7 +10747,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C218408"
+		(property "LCSC Part Number" "C1883577"
 			(at 33.02 172.72 90)
 			(effects
 				(font
@@ -10936,7 +10990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -10945,7 +10999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -10954,7 +11008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106235"
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -11166,7 +11220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -11175,7 +11229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-071KL"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -11184,7 +11238,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C106235"
 			(at 198.12 85.09 0)
 			(effects
 				(font
@@ -11530,7 +11584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -11539,7 +11593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 158.75 44.45 90)
 			(effects
 				(font
@@ -11548,7 +11602,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 158.75 44.45 90)
 			(effects
 				(font
@@ -11835,7 +11889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A475KAQNNNE"
+		(property "Manufacturer Part Number" "CL10A475KP8NNNC"
 			(at 143.51 66.04 0)
 			(effects
 				(font
@@ -11844,7 +11898,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1779"
+		(property "LCSC Part Number" "C1705"
 			(at 143.51 66.04 0)
 			(effects
 				(font
@@ -12141,7 +12195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "RT0805BRD075K1L"
+		(property "Manufacturer Part Number" "RT0402BRD075K1L"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -12150,7 +12204,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C122968"
+		(property "LCSC Part Number" "C852856"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -12253,6 +12307,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C965799"
+			(at 214.63 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2332a405-3000-4c0f-a7f8-8b41ab581844")
 		)
@@ -12347,6 +12410,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C965799"
+			(at 214.63 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4843487-55b8-4db6-929d-6d2f60a64559")
 		)
@@ -12416,7 +12488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "muRata"
 			(at 175.26 64.77 0)
 			(effects
 				(font
@@ -12425,7 +12497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KB8NNNC"
+		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
 			(at 175.26 64.77 90)
 			(effects
 				(font
@@ -12434,7 +12506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1591"
+		(property "LCSC Part Number" "C126532"
 			(at 175.26 64.77 90)
 			(effects
 				(font
@@ -12513,7 +12585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12522,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CQ02WGF1002TCE"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12531,7 +12603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
+		(property "LCSC Part Number" "C2765610"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12742,6 +12814,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C969151"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SILICON LABS"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CP2102N-A02-GQFN24R"
+			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
