@@ -5830,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
+		(property "Manufacturer Part Number" "GCM155R71H104KE02D"
 			(at 163.83 67.31 90)
 			(effects
 				(font
@@ -5839,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C126532"
+		(property "LCSC Part Number" "C85858"
 			(at 163.83 67.31 90)
 			(effects
 				(font
@@ -6436,7 +6436,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GCM155R71H102KA37D"
+		(property "Manufacturer Part Number" "GCM155R71H104KE02D"
 			(at 163.83 130.81 90)
 			(effects
 				(font
@@ -6445,7 +6445,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C126532"
+		(property "LCSC Part Number" "C85858"
 			(at 163.83 130.81 90)
 			(effects
 				(font
@@ -7469,7 +7469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0603JRNPO9BN300"
+		(property "Manufacturer Part Number" "CC0603BRNPO9BN2R4"
 			(at 223.52 57.15 0)
 			(effects
 				(font
@@ -7478,7 +7478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C113797"
+		(property "LCSC Part Number" "C519102"
 			(at 223.52 57.15 0)
 			(effects
 				(font
