@@ -12585,7 +12585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL"
+		(property "Manufacturer" "YAGEO"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12594,7 +12594,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CQ02WGF1002TCE"
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -12603,7 +12603,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2765610"
+		(property "LCSC Part Number" "C60490"
 			(at 130.81 162.56 0)
 			(effects
 				(font
